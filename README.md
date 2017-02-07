@@ -1,6 +1,8 @@
 # MajicIndicatorScrollView
 带有滑动指示器+悬浮框的scrollview
 ##关键代码
+
+
 majicScrollVeiw.setOnTopScrollListener(new MajicIndicatorScrollView.OnTopScrollListener() {
             @Override
             public void onScrollY(int scrollY) {
@@ -22,7 +24,8 @@ majicScrollVeiw.setOnTopScrollListener(new MajicIndicatorScrollView.OnTopScrollL
                 }
             }
         });
+        
 
 ![image](https://github.com/haijdong/MajicIndicatorScrollView/blob/master/indicatorscrollview.gif)
 
-带有悬浮指示器的Scrollview
+
